@@ -1,6 +1,6 @@
-### Hi there 👋
+<!-- ### Hi there 👋
 
-<!--
+
 **AllamF5J/AllamF5J** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
@@ -14,3 +14,11 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+<div align="center">
+  <p>
+    <a href="https://count.getloli.com/"><img src="https://count.getloli.com/get/@:AllamF5J"></a>
+  </p>
+  
+  <img src="https://github.com/AllamF5J/AllamF5J/blob/output/github-contribution-grid-snake-dark.svg" alt="Snake Gif">
+</div>
