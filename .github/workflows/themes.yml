@@ -1,0 +1,34 @@
+name: Update README
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Determine GitHub theme
+        id: theme
+        run: echo "::set-output name=theme::$(curl -s https://github.com | grep -q 'theme-dark' && echo dark || echo light)"
+
+      - name: Generate README
+        run: |
+          if [ "${{ steps.theme.outputs.theme }}" == "dark" ]; then
+            sed 's/github-contribution-grid-snake.svg/github-contribution-grid-snake-dark.svg/' README.md > README_generated.md
+          else
+            cp README.md README_generated.md
+          fi
+
+      - name: Commit changes
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@users.noreply.github.com'
+          git add README_generated.md
+          git commit -m "Update README based on GitHub theme"
+          git push
