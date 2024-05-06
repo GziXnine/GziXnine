@@ -18,6 +18,6 @@ Here are some ideas to get you started:
 <div align="center">
   <p>
     <a href="https://count.getloli.com/"><img width = "500" src="https://count.getloli.com/get/@:AllamF5J?theme=rule34"></a>
-    <img width = "900" src="https://github.com/AllamF5J/AllamF5J/blob/output/github-contribution-grid-snake-dark.svg" alt="Snake Gif">
+    <img width = "900" src="https://github.com/AllamF5J/AllamF5J/blob/output/github-contribution-grid-snake.svg" alt="Snake Gif">
   </p>
 </div>
