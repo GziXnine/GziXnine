@@ -1,0 +1,48 @@
+name: Update README
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Generate Contribution Grid
+        run: |
+          # Your script to generate contribution grid image goes here
+          # Replace this line with the command to generate the image
+          echo "Generate contribution grid image"
+
+      - name: Determine Theme
+        id: theme
+        run: |
+          # Determine if the GitHub theme is dark or light
+          if [ "$GITHUB_THEME" == "dark" ]; then
+            echo "dark"
+          else
+            echo "light"
+          fi
+        env:
+          GITHUB_THEME: ${{ github.event.client_payload.theme }}
+
+      - name: Update README
+        run: |
+          # Replace the image URL in README.md based on the theme
+          if [ "${{ steps.theme.outputs.theme }}" == "dark" ]; then
+            sed -i 's/github-contribution-grid-snake/github-contribution-grid-snake-dark/g' README.md
+          else
+            sed -i 's/github-contribution-grid-snake-dark/github-contribution-grid-snake/g' README.md
+          fi
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add README.md
+          git commit -m "Update contribution grid based on theme"
+          git push
