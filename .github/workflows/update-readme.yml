@@ -12,31 +12,26 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Generate Contribution Grid
-        run: |
-          # Your script to generate contribution grid image goes here
-          # Replace this line with the command to generate the image
-          echo "Generate contribution grid image"
-
       - name: Determine Theme
         id: theme
         run: |
           # Determine if the GitHub theme is dark or light
-          if [ "$GITHUB_THEME" == "dark" ]; then
+          THEME=$(curl -s -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/${GITHUB_REPOSITORY}/themes | grep -o '"theme":.*[^,}]' | cut -d'"' -f4)
+          if [ "$THEME" == "dark" ]; then
             echo "dark"
           else
             echo "light"
           fi
         env:
-          GITHUB_THEME: ${{ github.event.client_payload.theme }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
 
       - name: Update README
         run: |
           # Replace the image URL in README.md based on the theme
           if [ "${{ steps.theme.outputs.theme }}" == "dark" ]; then
-            sed -i 's/github-contribution-grid-snake/github-contribution-grid-snake-dark/g' README.md
+            sed -i 's/github-contribution-grid-snake.svg/github-contribution-grid-snake-dark.svg/g' README.md
           else
-            sed -i 's/github-contribution-grid-snake-dark/github-contribution-grid-snake/g' README.md
+            sed -i 's/github-contribution-grid-snake-dark.svg/github-contribution-grid-snake.svg/g' README.md
           fi
 
       - name: Commit changes
