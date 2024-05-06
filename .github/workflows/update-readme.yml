@@ -11,6 +11,13 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+        with:
+          ref: ${{ github.ref }}
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+        if: github.event_name != 'pull_request'
+        env:
+          CI: true
 
       - name: Determine Theme
         id: theme
