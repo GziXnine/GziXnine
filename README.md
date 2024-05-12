@@ -22,25 +22,14 @@ Here are some ideas to get you started:
 </div>
 
 ---
+
 <div align="center">
   
-
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=AllamF5J&exclude_days=Mon%2CTue%2CSat&theme=github-dark-dimmed&hide_border=true&stroke=EBEBEB00&date_format=j%20M%5B%20Y%5D&background=EB545400&excludeDaysLabel=EB545400)](https://github.com/AllamF5J?tab=repositories)
 <img align="right" width = "350px" src="https://user-images.githubusercontent.com/63050133/156676671-d5b2e362-97d4-4404-9447-dd71ddfea82f.gif">
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AllamF5J&bg_color=00000000&border_color=00000000&&langs_count=10&layout=compact)](https://github.com/AllamF5J?tab=repositories) <!--(https://github.com/anuraghazra/github-readme-stats)-->
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AllamF5J&bg_color=00000000&border_color=00000000&&langs_count=10&layout=compact)](https://github.com/AllamF5J?tab=repositories)
 
 ---
-
-<br/>
-
-<div align="center" width = "400px">
-  
-  ![Summary](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AllamF5J&theme=transparent)<br/>
-  ![Stats](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=AllamF5J&theme=transparent) 
-  ![Commits](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=AllamF5J&theme=transparent&utcOffset=8)
-</div>
-
-<br/>
 
 <div align="center">
   <p>
@@ -48,4 +37,6 @@ Here are some ideas to get you started:
   </p>
 </div>
 
-<h5 align="center" width = "100px" >سبحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، أَشْهَدُ أَنْ لا إِلهَ إِلأَ انْتَ أَسْتَغْفِرُكَ وَأَتْوبُ إِلَيْكَ</h5>
+<br/>
+
+<h3 align="center" width = "100px" >سبحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، أَشْهَدُ أَنْ لا إِلهَ إِلأَ انْتَ أَسْتَغْفِرُكَ وَأَتْوبُ إِلَيْكَ</h3>
