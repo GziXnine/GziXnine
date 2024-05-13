@@ -25,7 +25,7 @@ Here are some ideas to get you started:
 
 <div align="center">
   <p>
-    <img width = "600" src="http://github-readme-streak-stats.herokuapp.com?user=AllamF5J&exclude_days=Mon%2CTue%2CSat&theme=youtube-dark&hide_border=true&stroke=EBEBEB00&date_format=j%20M%5B%20Y%5D&background=EB545400&excludeDaysLabel=EB545400" alt="GitHub Streak">
+    <img width = "500" src="http://github-readme-streak-stats.herokuapp.com?user=AllamF5J&exclude_days=Mon%2CTue%2CSat&theme=youtube-dark&hide_border=true&stroke=EBEBEB00&date_format=j%20M%5B%20Y%5D&background=EB545400&excludeDaysLabel=EB545400" alt="GitHub Streak">
     <img align="right" width = "350px" src="https://user-images.githubusercontent.com/63050133/156676671-d5b2e362-97d4-4404-9447-dd71ddfea82f.gif">
     <img width = "300" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AllamF5J&bg_color=00000000&border_color=00000000&&langs_count=10&layout=compact" alt="Top Langs">
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=AllamF5J&theme=react-dark&hide_border=true&hide_title=false&area=true" width="100%" alt="Activity graph">
