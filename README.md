@@ -1,27 +1,10 @@
-<!-- ### Hi there 👋
-
-
-**AllamF5J/AllamF5J** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
 <div align="center">
   <p>
     <a href="https://count.getloli.com/"><img width = "500" src="https://count.getloli.com/get/@:AllamF5J?theme=rule34"></a>
   </p>
 </div>
 
----
+<img src="images/neon.gif">
 
 <div align="center">
 
@@ -33,13 +16,12 @@ Here are some ideas to get you started:
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=AllamF5J&theme=react-dark&hide_border=true&hide_title=false&area=true" width="100%" alt="Activity graph">
 
----
+<img src="images/neon.gif">
 
 <div align="center">
   <p>
     <img width = "900" src="https://github.com/AllamF5J/AllamF5J/blob/output/github-contribution-grid-snake-dark.svg" alt="Snake Gif">
   </p>
 </div>
-
 
 <h3 align="center" width = "100px" >سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ ، أَشْهَدُ أَنْ لا إِلَهَ إِلا أَنْتَ ، أَسْتَغْفِرُكَ وَأَتُوبُ إِلَيْكَ</h3>
