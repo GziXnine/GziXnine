@@ -10,6 +10,17 @@
   </p>
 </div>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/GziXnine/GziXnine/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/GziXnine/GziXnine/output/pacman-contribution-graph.svg">
+    <img alt="pacman contribution graph"
+      src="https://raw.githubusercontent.com/GziXnine/GziXnine/output/pacman-contribution-graph.svg">
+  </picture>
+</p>
+
 <img src="images/neon.gif">
 
 <h3 align="center" width = "100px" >سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ ، أَشْهَدُ أَنْ لا إِلَهَ إِلا أَنْتَ ، أَسْتَغْفِرُكَ وَأَتُوبُ إِلَيْكَ</h3>
