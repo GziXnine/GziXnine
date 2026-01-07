@@ -8,7 +8,11 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
+
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
       - name: Generate Pacman graph
         uses: Platane/snk@v3
         with:
@@ -16,3 +20,9 @@ jobs:
           outputs: |
             output/pacman-contribution-graph.svg
             output/pacman-contribution-graph-dark.svg?palette=github-dark
+
+      - name: Push generated files
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: "output"
+          message: "Update Pacman contribution graph 🟡"
