@@ -1,5 +1,9 @@
-<div align="left" style="display: inline-block;">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&color=%ffffff&size=48&left=true&vCenter=true&width=1200&height=100&lines=Welcome+To+My+Profile!+❤️" alt="Typing SVG" style="display: inline-block;">
+<div align="left">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&color=%ffffff&size=48&left=true&vCenter=true&width=1200&height=100&lines=Welcome+To+My+Profile!+❤️" alt="Typing SVG">
+  
+  <a href="https://wakatime.com/@5a4657fe-4994-4a36-a877-a6882bc4ec6c">
+    <img src="https://wakatime.com/badge/user/5a4657fe-4994-4a36-a877-a6882bc4ec6c.svg" alt="Total time coded since Jun 3 2024">
+  </a>
 </div>
 
 </br>
