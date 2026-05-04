@@ -25,6 +25,10 @@
   </picture>
 </p>
 
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=GziXnine&theme=radical&no-frame=true&no-bg=true&margin-w=8&column=6" />
+</p>
+
 <img src="images/neon.gif">
 
 <h3 align="center" width = "100px" >سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ ، أَشْهَدُ أَنْ لا إِلَهَ إِلا أَنْتَ ، أَسْتَغْفِرُكَ وَأَتُوبُ إِلَيْكَ</h3>
