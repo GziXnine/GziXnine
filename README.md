@@ -14,6 +14,11 @@
   </p>
 </div>
 
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=GziXnine&theme=radical&no-frame=true&no-bg=true&margin-w=8&column=11" />
+</p>
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)"
@@ -23,10 +28,6 @@
     <img alt="pacman contribution graph"
       src="https://raw.githubusercontent.com/GziXnine/GziXnine/output/pacman-contribution-graph.svg">
   </picture>
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=GziXnine&theme=radical&no-frame=true&no-bg=true&margin-w=8&column=6" />
 </p>
 
 <img src="images/neon.gif">
